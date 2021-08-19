@@ -1,0 +1,776 @@
+    /* header part and drop down menu css start */
+
+.top-section{
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(254,232,232);
+    text-align: center;
+}
+
+.top-section  li:first-child{
+    float: left;
+    font-size: small;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 10px;
+   
+}
+
+.youth-launch{
+     color: rgb(255,151,151);
+     text-decoration: none;
+}
+.top-section  li:nth-child(3){
+    float: right;
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-section  li{
+    list-style: none;
+    float: right;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.top-section  li a{
+    font-size: large;
+}
+
+
+.gift-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 100px;
+}
+.store-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.mid-section{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+.logo{
+    height: 50px;
+}
+form{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-right: 120px;
+}
+
+.input-box button{
+    border: none;
+    margin-right:10px ;
+}
+
+.input-box input{
+    width: 350px;
+    height:35px;
+    border: none;
+}
+
+.input-box img{
+    height: 30px;
+    width: 30px;
+}
+.refer{
+    margin-left: 100px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+    font-weight: 700;
+    float: right;
+    margin-right: 100px;
+}
+.mid-section button:hover{
+    background-color: black;
+    color: white;
+}
+.cart, .user-acc{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+    .end-section{
+        display: flex;
+        justify-content: right;
+        margin-left: 70px;
+    }
+
+.dropdown-content a:hover{
+    background-color: white;
+}
+
+.drop-down:hover .dropdown-content{
+    display: block;
+    z-index: -1;
+}
+
+.drop-down {
+    display: flex;
+    
+    margin-top: 25px;
+    z-index: 1;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .cat-div{
+      display: inline;
+      float: left;
+      width: 200px;
+      margin: 10px;
+      overflow: hidden;
+  }
+  .item-container{
+      display:flex;
+      justify-content: center;
+  }
+   ul li{
+      list-style: none;
+      padding: 5px;
+  }
+
+  .drop-down > a{
+      margin: 10px;
+      text-decoration: none;
+      color: black;
+  }
+  .catg{
+     color: rgb(255,151,151);
+     font-size: large;
+  }
+  .cat-div p,h4{
+      text-align: center;
+  }
+  .cat-div img{
+      height: 200px;
+      width: 100%;
+  }
+  ul li a{
+      text-decoration: none;
+  }
+  .hr-line{
+      color: gray;
+  }
+
+  /* header part and drop down menu css end */
+
+  /* -----> slider css start <------- */
+  .slider_container{
+    max-width: 100%;
+    height: 450px;
+    background-color: white;
+}
+.img{
+    background-size: contain;
+    max-width: 100%;
+    height: 400px;
+}
+#left,#right{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border:1px solid wheat;
+    border-radius: 50%;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    vertical-align:center;
+    position: absolute;
+    top:200px;
+    z-index:25;
+}
+#left{
+    margin-top: 15%;
+    left: 20px;
+}
+#right{
+    margin-top: 15%;
+    right: 20px;
+}
+.div_dot{
+    text-align: center;
+    margin-top: 20px;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    /* slider css end */
+
+
+    /* css for products part start*/
+    .row1,.row2,.row3,.row4{
+        width: 75%;
+        margin: 20px auto;
+    }
+    .row1img{
+        width: 100%;
+        height: 85px;
+    }
+    .row2head{
+
+        width: 19%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0.3%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: rgb(250, 144, 179);
+        background-image: linear-gradient(white,rgb(250, 144, 179));
+    }
+    .row2head_text{
+        width: 100%;
+        text-align: center;
+    }
+    .row2,.row3,.row4{
+        display: flex;
+    }
+    .row2_box{
+        width: 12.5%;
+    }
+    .row2_img{
+        width:90%;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 1.5%;
+        margin-left:2.5%;
+    }
+    .row2_text{
+        text-align: center;
+        font-weight: bold;
+        font-size: 13px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .row3_box1,.row4_box1{
+        width: 31%;
+        height: 340px;
+    }
+    .row3_box2{
+        margin-left: 4%;
+    }
+    .row3_box1>a>img{
+        width: 100%;
+        height: 220px;
+    }
+    .row3_text{
+        text-align: center;
+        padding: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .row3_text1{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .row4_box1{
+        position: relative;
+        background-image: url('https://files.myglamm.com/site-images/original/light-skin_1.jpeg');
+        background-size: cover;
+    }
+    .row4_box2{
+        margin-left: 4%;
+        position: relative;
+        background-image: url('https://files.myglamm.com/site-images/original/medium-skin_1.jpeg');
+        background-size: cover;
+    }
+    .row4_box3{
+        margin-left: 4%;
+        position: relative;
+        background-image: url('https://files.myglamm.com/site-images/original/dusky-skin_1.jpeg');
+        background-size: cover;
+    }
+    .row4_text1{
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+        text-align: center;
+        background-color: rgb(255,255,255, 0.7)
+    }
+    .row4_cont1{
+        margin-top: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .row4_text1:hover{
+        height: 230px;
+    }
+    .row4_cont2{
+        display: none;
+    }
+    .row4_cont1:hover + .row4_cont2{
+        display: block;
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 3%;
+    }
+
+         /* css for products part end*/
+        /* home widget start */
+
+        .homeWidget
+        {
+            display:flex;
+            justify-content: space-between;
+            margin: 5rem auto;
+            width: 100%;
+            max-width: 1120px;
+        }
+         img{
+            max-width:100%;
+            vertical-align: middle;
+        }
+        #mulitpleBanner{
+            padding-right:30px;
+        }
+        .homeWidget>h3,.homeTendingFeed>h3,h3{
+            margin: auto auto 2.5rem;
+            font-weight: 600;
+            width: max-content;
+            text-transform: uppercase;
+            padding: 0px 5px;
+            background: linear-gradient(transparent 60%, rgb(255, 151, 151) 30px);
+            font-size: 24px;
+        }
+        .homeTendingFeed{
+            width:100%;
+            display: grid;
+            grid-gap: 3%;
+            position: relative;
+            grid-template:  "a b"
+                            "a c"
+                            "a d"
+                            "a e";
+            background-color: #fff!important;
+        }
+        .homeTendingFeed>.child1{
+            grid-area: a;
+            height: 500px;
+            text-align: center;
+        }
+        .homeTendingFeed>.child2{
+            grid-area: b;
+            height: 100px;
+        }
+        .homeTendingFeed>.child3{
+            grid-area: c;
+            height: 100px;
+        }
+        .homeTendingFeed>.child4{
+            grid-area: d;
+            height: 100px;
+        }
+        .homeTendingFeed>.child5{
+            grid-area:e;
+            height: 100px;
+        }
+        .child1>img{
+            margin-top: 100px;
+            height: 220px;
+            vertical-align:middle;
+            border: 1px solid black;
+        }
+        .child2>img,.child3>img,.child4>img,.child5>img{
+            width: 30%;
+            height: 100px;
+            border: 1px solid rgb(241, 63, 63);
+            float: left;
+        }
+        .child1 .name{
+            margin-top: 15px;
+        }
+        .child2>.name,.child3>.name,.child4>.name,.child5>.name{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .child2>.readMore,.child3>.readMore,.child4>.readMore,.child5>.readMore{
+            margin-top: -50px;
+        }
+        .name {
+            font-size:22px;
+            font-weight: 700;
+            height: 5.5rem;
+            margin-right: 30px;
+        }
+        .readMore {
+            font-size: 1rem;
+            color: #ff9797;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        .promotionalBanners {
+            display: flex;
+            justify-content: space-between;
+        }
+        .offersContainer {
+            position: relative;
+            border-radius: 4px;
+            box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+            background-color: #fff;
+            width: 31%;
+            margin: 0px;
+        }
+        .offerText {
+            font-size: 14px;
+            height: 4.5rem;
+            color:black;
+        }
+        .offerContent {
+            text-align: center;
+            padding: 0 1rem 0rem;
+        }
+        .offerHeader{
+            font-size:18px;
+            font-weight: 700;
+            color:black;
+            margin-top: 20px;
+        }
+        .offerContent>h3{
+            margin-bottom: 0px !important;
+        }
+        figure {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 10px;
+            margin-inline-end:10px;
+        }
+        #showmorebtn{
+            border-radius: 20px;
+            background-color: #FADEDE;
+            font-size: 20px;
+            border:none;
+            height:30px;
+            margin-top:-200px !important;
+        }
+
+        /* home widget end */
+
+
+
+         /* products category list css start */
+    .footerbox{
+        width: 90%;
+        display: flex;
+        margin-left:5%;
+    }
+    .footerbox>ul>li{
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    .footerbox1{
+        width: 8.5%;
+        list-style-type: none;
+    }
+    .footerboxtext1{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 80%;
+        margin: 5%;
+    }
+    .footerbox{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80%;
+        font-weight: 500;
+    }
+    .footerbox1>li>a:hover{
+        color: rgb(255, 153, 0);
+        font-weight: bold;
+    }
+    .footerbox1>li{
+        margin-top: 5px;
+    }
+    /* products category list css end  */
+        /* footer part css start */
+
+        .foot1{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .foot2{
+            position: relative;
+            width: 30%;
+            margin-left: 5%;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .footinput{
+            width: 65%;
+            height: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        .footbtn{
+            height: 35px;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            padding: 2%;
+        }
+        .foot3{
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            width: 25%;
+        }
+        .one3{
+            position:absolute;
+            top: 60%;
+            left: 10%;
+        }
+        .two3{
+            position:absolute;
+            top: 60%;
+            left: 43%;
+            margin-left: 5px;
+        }
+        .foot3>a>img{
+            width: 25px;
+            height: 25px;
+            position:absolute;
+            top: 54%;
+        }
+        .three3{
+            left: 46%;
+        }
+        .four3{
+            left: 56%;
+        }
+        .five3{
+            left: 65%;
+        }
+        .six3{
+            left: 73%;
+        }
+        .seven3{
+            left: 81%;
+        }
+        .foot4{
+            width: 28%;
+
+        }
+        .box4{
+            display: grid;
+            grid-template-columns: 40% 40%;
+        }
+        .one4,.two4{
+            height: 40px;
+        }
+        .foot4>p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        /* footer part css end */
+
+
+        /* modal css */
+
+        /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* login page css */
+  .sign-up-box{
+    border: 1px solid black;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    border-radius: 2%;
+    overflow: hidden;
+    background-color: white;
+}
+.top-text{
+    margin-top: 30px;
+}
+.mobile{
+    text-align: left;
+    margin-bottom: 0%;
+    font-weight: 800;
+    margin-left: 20%;
+    font-size: medium;
+}
+.black-row{
+    border: 1px solid black;
+    width: 120px;
+    float: left;
+    margin-left:20%;
+    margin-bottom: 0%;
+}
+.horizontal-row{
+    margin-top: 0%;
+    width: 100%;
+}
+.input-number{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    border: 0px;
+}
+.phone-number{
+    margin-top: 10px;
+}
+#sel-cont{
+   font-size: small;
+   width: 100%;
+   font-weight: 600;
+   border: 0px;
+}
+
+.option{
+   border: 1px solid black;
+}
+.leg-text{
+   font-size: x-small;
+}
+fieldset{
+   width: inherit;
+   height: 20px;
+   overflow: hidden;
+}
+.button-div{
+   width: 70%;
+   margin: auto;
+   margin-top: 30px;
+}
+.button{
+   padding: 15px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   font-weight: 700;
+   border-radius: 2px;
+   cursor: pointer;
+}
+.hr-line{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+.hr-line > p{
+    width: 80%;
+    text-align: center; 
+    border-bottom: 2px solid rgb(229,229,229); 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.hr-line > p > span{
+background:#fff; 
+padding:0 10px;
+}
+.login-with{
+   display: flex;
+   margin-top: 20px !important;
+   justify-content: center;
+   gap: 10px;
+   width: 80%;
+   margin: auto;
+}
+.cont-facebook{
+   display: flex;
+   border: 1px solid black;
+   gap: 10px;
+   justify-content: center;
+   width: 50%;
+}
+.cont-gmail{
+   display: flex;
+   border: 1px solid black;
+   gap: 10px;
+   justify-content: center;
+   width: 50%;
+}
+.cont-facebook > img{
+   margin-top: 5px;
+   height: 70%;
+   width: 15%;
+   border-radius: 50%;
+}
+.cont-gmail > img{
+   margin-top: 5px;
+   height: 70%;
+   width: 15%;
+   border-radius: 50%;
+}
+.login-with p{
+   font-size: small;
+}
+
+/* login page css end */

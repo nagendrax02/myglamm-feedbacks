@@ -1,0 +1,408 @@
+  /* header part and drop down menu css start */
+
+  .top-section{
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(254,232,232);
+    text-align: center;
+}
+
+.top-section  li:first-child{
+    float: left;
+    font-size: small;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 10px;
+   
+}
+
+.youth-launch{
+     color: rgb(255,151,151);
+     text-decoration: none;
+}
+.top-section  li:nth-child(3){
+    float: right;
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-section  li{
+    list-style: none;
+    float: right;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.top-section  li a{
+    font-size: large;
+}
+
+
+.gift-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 100px;
+}
+.store-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.mid-section{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+.logo{
+    height: 50px;
+}
+form{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-right: 120px;
+}
+
+.input-box button{
+    border: none;
+    margin-right:10px ;
+}
+
+.input-box input{
+    width: 350px;
+    height:35px;
+    border: none;
+}
+
+.input-box img{
+    height: 30px;
+    width: 30px;
+}
+.refer{
+    margin-left: 100px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+    font-weight: 700;
+    float: right;
+    margin-right: 100px;
+}
+.mid-section button:hover{
+    background-color: black;
+    color: white;
+}
+.cart, .user-acc{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+    .end-section{
+        display: flex;
+        justify-content: right;
+        margin-left: 70px;
+    }
+
+.dropdown-content a:hover{
+    background-color: white;
+}
+
+.drop-down:hover .dropdown-content{
+    display: block;
+    z-index: -1;
+}
+
+.drop-down {
+    display: flex;
+    
+    margin-top: 25px;
+    z-index: 1;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .cat-div{
+      display: inline;
+      float: left;
+      width: 200px;
+      margin: 10px;
+      overflow: hidden;
+  }
+  .item-container{
+      display:flex;
+      justify-content: center;
+  }
+   ul li{
+      list-style: none;
+      padding: 5px;
+  }
+
+  .drop-down > a{
+      margin: 10px;
+      text-decoration: none;
+      color: black;
+  }
+  .catg{
+     color: rgb(255,151,151);
+     font-size: large;
+  }
+  .cat-div p,h4{
+      text-align: center;
+  }
+  .cat-div img{
+      height: 200px;
+      width: 100%;
+  }
+  ul li a{
+      text-decoration: none;
+  }
+  .hr-line{
+      color: gray;
+  }
+
+  /* header part and drop down menu css end */
+
+            .myfirst{
+                position: relative;
+                width:70%;
+                height: 400px;
+                margin: auto;
+            }
+            .myfirst1{
+                position: absolute;
+                width: 35%;
+                height: 350px;
+                top: 20px;
+                left: 25%;
+            }
+            .myfirst2{
+                position: absolute;
+                width: 45%;
+                height: 280px;
+                top: 90px;
+                left: 54.8%;
+                background-color: white;
+            }
+            .myfirsttext1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 2.5rem;
+                margin-top: 20px;
+                margin-left: 5%;
+            }
+            .myfirsttext2{
+                margin-left: 5%;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 40px;
+                font-size: 0.9rem;
+            }
+            .myfirsttext3{
+                margin-left: 5%;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 20px;
+            }
+            .myfirst3{
+                position: absolute;
+                width: 42.8%;
+                height: 31px;
+                background-color: rgba(236, 148, 178,0.5);
+                right: 0;
+                top: 174px;
+            }
+            .mysecond{
+                width:70%;
+                margin: auto;
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                grid-column-gap: 5%;
+            }
+            .mysecond1{
+                border: 1px solid gray;
+                /* width: 28%; */
+                /* height: 450px; */
+            }
+            .mysecondimg{
+                width: 100%;
+                height: 280px;
+                border: 1px solid gray;
+            }
+            .mysecondtext1{
+                width: 95%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 1.2rem;
+                margin-left: 5%;
+            }
+            .mysecondtext2{
+                width: 95%;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 10px;
+                color: gray;
+                margin-left: 5%;
+            }
+            .mysecondtext3{
+                margin-top: 20px;
+                font-size: 1.5rem;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                margin-left: 5%;
+            }
+            .heading{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 2rem;
+                border: 1px solid black;
+                width: 15%;
+                margin: auto;
+                margin-top: 40px;
+                margin-bottom: 50px;
+                background-color: rgb(218, 179, 179);
+                
+            }
+         /* products category list css start */
+    .footerbox{
+        width: 90%;
+        display: flex;
+        margin-left:5%;
+    }
+    .footerbox>ul>li{
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    .footerbox1{
+        width: 8.5%;
+        list-style-type: none;
+    }
+    .footerboxtext1{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 80%;
+        margin: 5%;
+    }
+    .footerbox{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80%;
+        font-weight: 500;
+    }
+    .footerbox1>li>a:hover{
+        color: rgb(255, 153, 0);
+        font-weight: bold;
+    }
+    .footerbox1>li{
+        margin-top: 5px;
+    }
+    /* products category list css end  */
+        /* footer part css start */
+
+        .foot1{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .foot2{
+            position: relative;
+            width: 30%;
+            margin-left: 5%;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .footinput{
+            width: 65%;
+            height: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        .footbtn{
+            height: 35px;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            padding: 2%;
+        }
+        .foot3{
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            width: 25%;
+        }
+        .one3{
+            position:absolute;
+            top: 60%;
+            left: 10%;
+        }
+        .two3{
+            position:absolute;
+            top: 60%;
+            left: 43%;
+            margin-left: 5px;
+        }
+        .foot3>a>img{
+            width: 25px;
+            height: 25px;
+            position:absolute;
+            top: 54%;
+        }
+        .three3{
+            left: 46%;
+        }
+        .four3{
+            left: 56%;
+        }
+        .five3{
+            left: 65%;
+        }
+        .six3{
+            left: 73%;
+        }
+        .seven3{
+            left: 81%;
+        }
+        .foot4{
+            width: 28%;
+
+        }
+        .box4{
+            display: grid;
+            grid-template-columns: 40% 40%;
+        }
+        .one4,.two4{
+            height: 40px;
+        }
+        .foot4>p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        /* footer part css end */

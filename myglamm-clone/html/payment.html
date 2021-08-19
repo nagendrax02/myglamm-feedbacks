@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>card pyment page</title>
+        <style>
+            /* cart header */
+            .header{
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+        .user-acc{
+            width: 35px;
+            height: 35px;
+            float: right;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        .logo{
+            height: 50px;
+        }
+            /* cart header end */
+            .payname{
+                text-align: center;
+                font-size: 2rem;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(65, 63, 63);
+                margin-top: 50px;
+            }
+            .pay_main_box{
+                /* border: 1px solid black; */
+                width: 60%;
+                margin: auto;
+                margin-top: 20px;
+                display: flex;
+                margin-top: 50px;
+            }
+            .pay_box1{
+                width: 30%;
+                /* border: 1px solid red; */
+            }
+            .pay_box2{
+                width: 70%;
+                /* border: 1px solid red; */
+            }
+            .pay_b1_l1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 0.9rem;
+                color: rgb(65, 63, 63);
+            }
+            .pay_b1_l2{
+                /* border: 1px solid black; */
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 0.8rem;
+                text-align: center;
+                padding: 7%;
+                margin-top: 15px;
+            }
+            .pay_b2_l2{
+                margin-left: 3%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 0.9rem;
+                /* border: solid 1px black; */
+                margin-bottom: 20px;
+            }
+            .pay_row1{
+                /* border:1px solid black; */
+                margin-bottom: 8%;
+            }
+            .pay_b2_l2_text{
+                width: 70%;
+                height: 35px;
+                margin-left: 6.9%;
+                background-color: whitesmoke;
+            }
+            .pay_b2_l3_text{
+                margin-left: 1%;
+            }
+            .pay_b2_l4_text1{
+                width: 15%;
+                height: 35px;
+                background-color: whitesmoke;
+                margin-left: 10.6%;
+            }
+            .pay_b2_l4_text2{
+                margin-left: 2%;
+            }
+            .cvv{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 11.5%;
+            }
+            .paybtn{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1rem;
+                font-weight: bold;
+                color: rgb(89,89,89);
+                background-color: rgb(210,211,213);
+                border: none;
+                padding: 3%;
+                cursor: pointer;
+                margin-left: 20px;
+                border-radius: 2px;
+            }
+            .paycol{
+                background-color: rgb(233, 169, 190);
+                border: 1px solid black;
+            }
+            #order{
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                background-color: rgba(0, 0, 0, 0.4);
+                top: 0;
+                left: 0;
+                display: none;
+            }
+            .order_box{
+                width: 30%;
+                height: 250px;
+                background-color: white;
+                border-radius: 10px;
+                margin: auto;
+                margin-top: 210px;
+            }
+            .orderimg{
+                width: 45%;
+                height: 60%;
+                /* border: 1px solid black; */
+                margin-left: 30%;
+                margin-top: 10px;
+            }
+            .ordertext{
+                font-size: 2rem;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cart">
+            <div class="header">
+                <a href="index.html"><div class="logo"><img class="logo" src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt=""></div></a>
+                <div><img src="data:image/png;base64,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" alt=""></div>
+                <div class="user-icon"><a href="#user-login"><img src="https://static.thenounproject.com/png/642902-200.png" alt="" class="user-acc"></a></div>
+            </div>
+        </div>
+        <div class="payname">Payment</div>
+        <div class="pay_main_box">
+            <div class="pay_box1">
+                <h2 class="pay_b1_l1">PAYMENT METHOD</h2>
+                <div class="pay_b1_l2 paycol">Credit or Debit Card</div>
+                <div class="pay_b1_l2">Net Banking</div>
+                <div class="pay_b1_l2">Google Pay/Phone Pay/UPI</div>
+                <div class="pay_b1_l2">Wallets</div>
+                <div class="pay_b1_l2">Cash on Delivery</div>
+            </div>
+            <div class="pay_box2">
+                <h2 class="pay_b1_l1">NEW CARD</h2>
+                <div class="pay_row1">
+                    <label class="pay_b2_l2">Card Number</label>
+                    <input class="pay_b2_l2_text" type="number" placeholder="XXXX-XXXX-XXXX-XXXX" />
+                </div>
+                <div class="pay_row1">
+                    <label class="pay_b2_l2">Cardholder's Name</label>
+                    <input class="pay_b2_l3_text pay_b2_l2_text" type="text" placeholder="eg.Jeniffer Gomes">
+                </div>
+                <div class="pay_row1">
+                    <label class="pay_b2_l2">Validity till</label>
+                    <input class="pay_b2_l4_text1" type="text" placeholder="MM" />
+                    <input class="pay_b2_l4_text1 pay_b2_l4_text2" type="number" placeholder="YY" />
+                    <span class="cvv">CVV</span>
+                    <input class="pay_b2_l4_text1 pay_b2_l4_text2" type="number" placeholder="***" />
+                </div>
+                <button class="paybtn" onclick="document.getElementById('order').style.display='block'">PROCEED TO PAY</button>
+                <div id="order">
+                    <div class="order_box">
+                        <img class="orderimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbf14akiZ8LWsOdWgbGq4UbA5XmNmqWD9TdA&usqp=CAU"/>
+                        <div class="ordertext">Order has been  placed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    setInterval(function (){
+        document.getElementById('order').style.display="none"
+    },4000)
+</script>

@@ -1,0 +1,47 @@
+<html>
+    <style>
+        .body {
+     margin: 0em;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    z-index: 0;
+    background-color: hsl(0,0%,100%);
+}
+
+  .page:target {
+    left: 0vw;
+    z-index: 1;
+}
+    </style>
+<body>
+    <ul>
+        <li>Click <a href="#one">here</a> for page 1</li>
+        <li>Click <a href="#two">here</a> for page 2</li>
+    </ul>
+    
+    <div class="page" id="one">
+        Content of page 1 goes here.
+    
+        <ul>
+            <li><a href="../html/login.html">Back</a></li>
+            <li><a href="../html/login.html">Page 2</a></li>
+        </ul>
+    </div>
+    
+    <div class="page" id="two">
+        Content of page 2 goes here.
+    
+        <ul style="margin-bottom: 100vh;">
+            <li><a href="#">Back</a></li>
+            <li><a href="#one">Page 1</a></li>
+        </ul>
+    </div>
+</body>
+</html>

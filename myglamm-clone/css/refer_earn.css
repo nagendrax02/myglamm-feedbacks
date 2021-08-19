@@ -1,0 +1,250 @@
+ /* header part and drop down menu css start */
+
+ .top-section{
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(254,232,232);
+  text-align: center;
+}
+
+.top-section  li:first-child{
+  float: left;
+  font-size: small;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 10px;
+ 
+}
+
+.youth-launch{
+   color: rgb(255,151,151);
+   text-decoration: none;
+}
+.top-section  li:nth-child(3){
+  float: right;
+  margin-right: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.top-section  li{
+  list-style: none;
+  float: right;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+.top-section  li a{
+  font-size: large;
+}
+
+
+.gift-icon{
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  float: left;
+  margin-left: 100px;
+}
+.store-icon{
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.mid-section{
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+  
+}
+.logo{
+  height: 50px;
+}
+form{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-right: 120px;
+}
+
+.input-box button{
+  border: none;
+  margin-right:10px ;
+}
+
+.input-box input{
+  width: 350px;
+  height:35px;
+  border: none;
+}
+
+.input-box img{
+  height: 30px;
+  width: 30px;
+}
+.refer{
+  margin-left: 100px;
+  height: 40px;
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 20px;
+  text-align: center;
+  width: 120px;
+  cursor: pointer;
+  font-weight: 700;
+  float: right;
+  margin-right: 100px;
+}
+.mid-section button:hover{
+  background-color: black;
+  color: white;
+}
+.cart, .user-acc{
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+  .end-section{
+      display: flex;
+      justify-content: right;
+      margin-left: 70px;
+  }
+
+.dropdown-content a:hover{
+  background-color: white;
+}
+
+.drop-down:hover .dropdown-content{
+  display: block;
+  z-index: -1;
+}
+
+.drop-down {
+  display: flex;
+  
+  margin-top: 25px;
+  z-index: 1;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cat-div{
+    display: inline;
+    float: left;
+    width: 200px;
+    margin: 10px;
+    overflow: hidden;
+}
+.item-container{
+    display:flex;
+    justify-content: center;
+}
+ ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.drop-down > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.catg{
+   color: rgb(255,151,151);
+   font-size: large;
+}
+.cat-div p,h4{
+    text-align: center;
+}
+.cat-div img{
+    height: 200px;
+    width: 100%;
+}
+ul li a{
+    text-decoration: none;
+}
+.hr-line{
+    color: gray;
+}
+
+/* header part and drop down menu css end */
+
+
+
+
+
+.floatRightp {
+  float: right;
+}
+
+.floatLeftp {
+  float: left;
+}
+.halfImageLeftp {
+  margin-left: 100px;
+  margin-top: 5px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  padding: 25px;
+}
+.halfImageRightp {
+  margin-right: 100px;
+  margin-top: 5px;
+  float: right;
+  width: 500px;
+  height: 500px;
+  /* border: 1px solid red; */
+  padding: 25px;
+}
+
+.referral-h2p {
+  font-weight: 600;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.text-centerp {
+  text-align: center;
+}
+
+.clearFloatp {
+  clear: both;
+}
+
+div > h2 {
+  padding: 50px;
+}
+
+#threeBox > div {
+  margin-left: 180px;
+  margin-top: 60px;
+}
+#buttonp {
+  height: 70px;
+  padding: 20px;
+  background-color: #000000;
+  color: cornsilk;
+  border-radius: 80px;
+  font-size: large;
+  margin-left: 80px;
+}

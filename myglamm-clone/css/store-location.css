@@ -1,0 +1,60 @@
+.backgroundP {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: auto;
+    width: 1333px;
+    background-image: url("https://files.myglamm.com/images/content/web_final.jpg");
+  }
+  
+  .backgroundP > div > h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    margin: 0 0 35px;
+    font-family: din-2014, sans-serif;
+  }
+  
+  #pinkBoxp {
+    width: 1140px;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .secondBigBoxp {
+    width: 1150px;
+    margin-top: 280px;
+    margin: auto;
+  }
+  
+  .threeBoxp {
+    float: left;
+    width: 420px;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  a:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  .locationSmallp {
+    padding: 10px;
+    border: 2px solid white;
+    background: transparent;
+    color: whitesmoke;
+    float: left;
+    font-size: larger;
+    margin-right: 25px;
+  }
+  
